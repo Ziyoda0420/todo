@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    cursor: pointer;
+}
+/* Light Mode (default) */
+body {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #181818;
+    color: white;
+}
+
+/* Button Styling */
+#theme-toggle {
+    position: absolute;
+    top: 130px;
+    right: 480px;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 64px;
+    height: 38px;
+    color: white;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h2{
+justify-content: center;
+display: flex;
+margin-top: 50px;
+}
+input{
+    width:595px;
+    height:38px;
+    justify-content: center;
+    padding-left: 20px;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+button{
+    width: 64px;
+    height: 38px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+}
+
